@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact | Braven Dynamics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="site-wrapper">
+  <header class="top-bar">
+    <div class="container nav">
+      <a href="index.html" class="brand">
+        <div class="brand-mark">BD</div>
+        <div class="brand-text">
+          <span class="brand-name">BRAVEN DYNAMICS</span>
+          <span class="brand-tagline">3D-Printed Tooling & Fixtures</span>
+        </div>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html" class="nav-cta">
+          Contact
+          <span>→</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <div class="page-kicker">Contact</div>
+        <h1 class="page-title">Tell me what you’re working on.</h1>
+        <p class="page-description">
+          You don’t need a perfect drawing or technical write-up. A simple explanation of your part,
+          process, or problem is enough to start the conversation.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container two-column">
+        <div>
+          <div class="form-card">
+            <form
+              action="https://formsubmit.co/s.brazil@bravendynamics.com"
+              method="POST"
+            >
+              <!-- FormSubmit options -->
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_subject" value="New project inquiry from Braven Dynamics site" />
+              <input type="hidden" name="_template" value="table" />
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    placeholder="Your name"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="you@example.com"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Project details</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  required
+                  placeholder="Tell me about your part, process, or problem. The more context, the better."
+                ></textarea>
+              </div>
+
+              <div class="form-footer">
+                <button type="submit" class="btn-primary">
+                  Send message
+                  <span>→</span>
+                </button>
+                <div>
+                  Or email directly:<br />
+                  <span style="color:#e5e7eb;">s.brazil@bravendynamics.com</span>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div>
+          <div class="card">
+            <div class="card-label">Details that help</div>
+            <h3 class="card-title">You can include things like:</h3>
+            <ul class="list">
+              <li>
+                <div class="list-bullet"></div>
+                <span>What the part or process is.</span>
+              </li>
+              <li>
+                <div class="list-bullet"></div>
+                <span>What’s currently difficult, slow, or annoying.</span>
+              </li>
+              <li>
+                <div class="list-bullet"></div>
+                <span>Any photos, models, or rough sketches you already have.</span>
+              </li>
+              <li>
+                <div class="list-bullet"></div>
+                <span>What “success” would look like for you.</span>
+              </li>
+            </ul>
+            <p class="card-body">
+              You don’t have to overthink it. A few sentences are enough to start, and we can fill
+              in the details together.
+            </p>
+          </div>
+
+          <div style="height:0.8rem;"></div>
+
+          <div class="card">
+            <div class="card-label">Location & hours</div>
+            <h3 class="card-title">Based in Lombard, IL</h3>
+            <p class="card-body">
+              Braven Dynamics operates on a simple schedule: messages are typically answered
+              Monday–Friday during normal daytime hours.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© Braven Dynamics. All rights reserved.</span>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
