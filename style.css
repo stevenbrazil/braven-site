@@ -23,14 +23,29 @@
 }
 
 html, body {
-  margin: 0;
-  padding: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
-    "Segoe UI", sans-serif;
-  background: radial-gradient(circle at top, #020617 0, #020617 40%, #000 100%);
-  color: var(--text-main);
-  scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+    background: linear-gradient(to bottom, #2f3338, #1f2125);
+    color: var(--text-main);
+    scroll-behavior: smooth;
 }
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 15px 30px; 
+    height: auto; 
+}
+
+.logo {
+    height: 250px; 
+    width: auto;
+    flex-shrink: 0;
+    display: block;
+}
+
 
 body {
   min-height: 100vh;
@@ -178,10 +193,12 @@ main {
   font-size: 1.4rem;
 }
 
+
 @media (max-width: 768px) {
-  .nav-links {
+
+   nav {
     display: none;
-  }
+   }
 
   .nav-toggle {
     display: block;
