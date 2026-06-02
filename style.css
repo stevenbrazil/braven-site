@@ -197,12 +197,19 @@ main {
 
 @media (max-width: 768px) {
 
-   .nav.links {
+   .nav-links {
     display: none;
    }
 
+  .nav{
+    padding: 0 1rem;
+  }
+
   .nav-toggle {
     display: block;
+    margin-right: 0.75rem
+    padding: 0.4rem
+    cursor: pointer;
   }
 
   .nav-links.mobile-open {
