@@ -202,16 +202,24 @@ main {
    }
 
   .nav{
-    padding: 0 1rem;
+    padding: 0 1.25rem;
   }
 
   .nav-toggle {
     display: block;
-    margin-right: 0.75rem
+    margin-right: 0.5rem
     padding: 0.4rem
     cursor: pointer;
   }
 
+  .logo{
+    height: 80px;
+  }
+
+  header{
+    padding: 10px 1.25rem;
+  }
+  
   .nav-links.mobile-open {
     display: flex;
     flex-direction: column;
