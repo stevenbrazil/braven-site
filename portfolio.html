@@ -5,6 +5,7 @@
   <title>Portfolio | Braven Dynamics</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
 </head>
 <body>
 <div class="site-wrapper">
@@ -47,8 +48,19 @@
       <div class="container portfolio-grid">
         <div class="portfolio-card">
           <div class="portfolio-thumb">
-            Image Coming Soon
+            <!-- Main thumbnail -->
+            <a href="images/sj_standing.jpg" class="glightbox" data-gallery="softjaws">
+              <img src="images/sj_standing.jpg" alt="OP2 Side Soft Jaws">
+            </a>
+        
+            <!-- Hidden gallery items -->
+            <a href="images/sj_on_vice.jpg" class="glightbox" data-gallery="softjaws"></a>
+        
+            <!-- Videos -->
+            <a href="images/sj_vid_1.avi" class="glightbox" data-gallery="softjaws" data-type="video"></a>
+            <a href="images/sj_vid_2.avi" class="glightbox" data-gallery="softjaws" data-type="video"></a>
           </div>
+        
           <div class="portfolio-body">
             <h3 class="portfolio-title">OP2 Side Soft Jaws</h3>
             <p class="portfolio-meta">
@@ -56,6 +68,7 @@
               critical surfaces clear for machining. These can be created as a two-piece jaw or one-piece fixture.
             </p>
           </div>
+        </div>
         </div>
 
         <div class="portfolio-card">
