@@ -613,7 +613,7 @@ main {
 
 .portfolio-thumb {
   background: linear-gradient(135deg, #020617, #111827);
-  height: 140px;
+  height: 180px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -626,6 +626,7 @@ main {
   height: 100%;
   object-fit: cover;
   display: block;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
 }
 
 
